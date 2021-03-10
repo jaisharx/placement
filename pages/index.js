@@ -4,7 +4,7 @@ import NextHead from 'components/next-head';
 export default function Home() {
     return (
         <>
-            <NextHead title="Placement"/>
+            <NextHead title="Placement – Job Search Tracker &amp; CRM"/>
 
             <Layout>
 
