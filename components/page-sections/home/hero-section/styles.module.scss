@@ -1,0 +1,84 @@
+.section {
+    margin-top: 6rem;
+    height: 80vh;
+    text-align: center;
+
+    background-image: url('/assets/geo-pattern.7f158391c49a43039035f8af19b949de.svg');
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        margin: 8rem 0;
+    }
+
+    h1 {
+        color: #765dff;
+        font-size: 7rem;
+        font-weight: 700;
+        line-height: 1.15;
+
+        margin: 1.6rem 0;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        font-weight: 400;
+    }
+    
+    form {
+        margin: 4rem 0;
+    }
+
+    .formGroup {
+        display: flex;
+        justify-content: center;
+    }
+
+    form input {
+        font: inherit;
+        font-size: 2.2rem;
+        padding: .6rem 1.6rem;
+        height: 6rem;
+        width: 32rem;
+        border: 3px solid #5f9fef;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+        box-shadow: -2px 5px 1.25rem rgb(36 65 102 / 20%);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .formGroup button {
+        cursor: pointer;
+        font: inherit;
+        min-width: 28rem;
+        background: linear-gradient(90deg,#5f9fef,#7663fc);
+        
+        border: none;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        
+        color: #fff;
+        font-size: 2.2rem;
+        box-shadow: 3px 5px 1.25rem rgb(36 65 102 / 20%);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .text {
+        margin-top: -1rem;
+        color: #778397;
+    }
+}
