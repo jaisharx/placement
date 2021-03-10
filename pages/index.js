@@ -1,3 +1,4 @@
+import Layout from 'layouts/default';
 import NextHead from 'components/next-head';
 
 export default function Home() {
@@ -5,7 +6,10 @@ export default function Home() {
         <>
             <NextHead title="Placement"/>
 
+            <Layout>
 
+
+            </Layout>
             
         </>
     );

@@ -1,12 +1,12 @@
-import NextHead from 'next/head';
+import Head from 'next/head';
 
 export default function NextHead({ title, desc }) {
     return (
-        <NextHead>
+        <Head>
             <title>{title}</title>
             <link rel="icon" href="/favicon.ico" />
 
 
-        </NextHead>
+        </Head>
     )
 }
